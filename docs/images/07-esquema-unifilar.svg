@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Esquema unifilar simplificado del generador fotovoltaico móvil</title>
+  <desc id="desc">Diagrama funcional de módulos fotovoltaicos, baterías, inversores híbridos, protecciones y salida trifásica.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:12}
+      .power{fill:none;stroke:#334155;stroke-width:3;marker-end:url(#arrow)}
+      .battery{fill:none;stroke:#64748b;stroke-width:2.5;stroke-dasharray:8 7;marker-end:url(#arrow)}
+      .title{font:700 28px Arial,sans-serif;fill:#0f172a}
+      .label{font:700 19px Arial,sans-serif;fill:#0f172a}
+      .small{font:16px Arial,sans-serif;fill:#475569}
+      .note{font:14px Arial,sans-serif;fill:#64748b}
+    </style>
+  </defs>
+  <rect width="1200" height="650" fill="#ffffff"/>
+  <text x="600" y="52" text-anchor="middle" class="title">Arquitectura eléctrica · esquema funcional simplificado</text>
+
+  <rect x="45" y="170" width="220" height="145" class="box"/>
+  <text x="155" y="215" text-anchor="middle" class="label">Generador FV</text>
+  <text x="155" y="250" text-anchor="middle" class="small">63 módulos · 25,2 kWp</text>
+  <text x="155" y="280" text-anchor="middle" class="small">Strings dimensionados</text>
+
+  <rect x="340" y="100" width="230" height="125" class="box"/>
+  <text x="455" y="145" text-anchor="middle" class="label">Inversor híbrido 1</text>
+  <text x="455" y="180" text-anchor="middle" class="small">Trifásico · 10 kW</text>
+  <rect x="340" y="340" width="230" height="125" class="box"/>
+  <text x="455" y="385" text-anchor="middle" class="label">Inversor híbrido 2</text>
+  <text x="455" y="420" text-anchor="middle" class="small">Trifásico · 10 kW</text>
+
+  <rect x="340" y="510" width="230" height="88" class="box"/>
+  <text x="455" y="547" text-anchor="middle" class="label">Almacenamiento</text>
+  <text x="455" y="575" text-anchor="middle" class="small">30 baterías · 106,5 kWh nominales</text>
+
+  <rect x="665" y="225" width="245" height="175" class="box"/>
+  <text x="787" y="272" text-anchor="middle" class="label">Protección y medida AC</text>
+  <text x="787" y="310" text-anchor="middle" class="small">Magnetotérmico · diferencial</text>
+  <text x="787" y="340" text-anchor="middle" class="small">Fusibles · varistor · contador</text>
+
+  <rect x="1000" y="245" width="165" height="135" class="box"/>
+  <text x="1082" y="295" text-anchor="middle" class="label">Salida</text>
+  <text x="1082" y="330" text-anchor="middle" class="small">Trifásica</text>
+  <text x="1082" y="355" text-anchor="middle" class="small">400 V</text>
+
+  <path d="M265 230 H300 V162 H340" class="power"/>
+  <path d="M300 230 V402 H340" class="power"/>
+  <path d="M570 162 H620 V270 H665" class="power"/>
+  <path d="M570 402 H620 V355 H665" class="power"/>
+  <path d="M910 312 H1000" class="power"/>
+  <path d="M455 510 V490 H600 V162 H570" class="battery"/>
+  <path d="M600 402 H570" class="battery"/>
+  <text x="600" y="625" text-anchor="middle" class="note">Representación didáctica basada en el esquema unifilar del TFG; no sustituye al plano eléctrico original.</text>
+</svg>

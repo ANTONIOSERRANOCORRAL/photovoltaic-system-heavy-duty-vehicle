@@ -19,18 +19,19 @@
   <rect x="45" y="170" width="220" height="145" class="box"/>
   <text x="155" y="215" text-anchor="middle" class="label">Generador FV</text>
   <text x="155" y="250" text-anchor="middle" class="small">63 módulos · 25,2 kWp</text>
-  <text x="155" y="280" text-anchor="middle" class="small">Strings dimensionados</text>
+  <text x="155" y="280" text-anchor="middle" class="small">Strings: 16 + 16 + 16 + 15</text>
 
   <rect x="340" y="100" width="230" height="125" class="box"/>
   <text x="455" y="145" text-anchor="middle" class="label">Inversor híbrido 1</text>
-  <text x="455" y="180" text-anchor="middle" class="small">Trifásico · 10 kW</text>
+  <text x="455" y="180" text-anchor="middle" class="small">Trifásico · 10 kW · 2 MPPT</text>
   <rect x="340" y="340" width="230" height="125" class="box"/>
   <text x="455" y="385" text-anchor="middle" class="label">Inversor híbrido 2</text>
-  <text x="455" y="420" text-anchor="middle" class="small">Trifásico · 10 kW</text>
+  <text x="455" y="420" text-anchor="middle" class="small">Trifásico · 10 kW · 2 MPPT</text>
 
   <rect x="340" y="510" width="230" height="88" class="box"/>
-  <text x="455" y="547" text-anchor="middle" class="label">Almacenamiento</text>
-  <text x="455" y="575" text-anchor="middle" class="small">30 baterías · 106,5 kWh nominales</text>
+  <text x="455" y="542" text-anchor="middle" class="label">Almacenamiento</text>
+  <text x="455" y="568" text-anchor="middle" class="small">30 baterías · 106,5 kWh nominales</text>
+  <text x="455" y="589" text-anchor="middle" class="note">15 por inversor · tres grupos de 5</text>
 
   <rect x="665" y="225" width="245" height="175" class="box"/>
   <text x="787" y="272" text-anchor="middle" class="label">Protección y medida AC</text>
